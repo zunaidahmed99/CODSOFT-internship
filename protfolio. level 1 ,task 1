@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of MD ZUNAID AHMED SHAH, showcasing web development projects and skills">
+  <meta name="keywords" content="web developer, portfolio, MD ZUNAID AHMED SHAH, front-end developer">
+  <meta name="author" content="MD ZUNAID AHMED SHAH">
+  <title>MD ZUNAID AHMED SHAH - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .nav-link:hover {
+      color: #3b82f6;
+      transition: color 0.3s ease;
+    }
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-900">MD ZUNAID AHMED SHAH</h1>
+      <div class="space-x-6">
+        <a href="#about" class="nav-link text-gray-600 hover:text-blue-500">About</a>
+        <a href="#skills" class="nav-link text-gray-600 hover:text-blue-500">Skills</a>
+        <a href="#projects" class="nav-link text-gray-600 hover:text-blue-500">Projects</a>
+        <a href="#resume" class="nav-link text-gray-600 hover:text-blue-500">Resume</a>
+        <a href="#contact" class="nav-link text-gray-600 hover:text-blue-500">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 text-center">
+    <div class="max-w-6xl mx-auto px-4">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">MD ZUNAID AHMED SHAH</h1>
+      <p class="text-xl md:text-2xl">Web Developer | Designer | Creator</p>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+      <img src="IMG_2148.JPG" alt="MD ZUNAID AHMED SHAH Photo" class="w-40 h-40 rounded-full object-cover shadow-lg"
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="text-lg text-gray-600 leading-relaxed">
+          I'm a passionate web developer with expertise in crafting responsive, user-friendly websites using HTML, CSS, and JavaScript. My goal is to transform creative ideas into seamless digital experiences. With a strong foundation in modern web technologies, I thrive on solving complex problems and delivering high-quality solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+      <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+        <li class="bg-gray-100 py-3 rounded-lg shadow-sm hover:bg-blue-100 transition-colors">HTML</li>
+        <li class="bg-gray-100 py-3 rounded-lg shadow-sm hover:bg-blue-100 transition-colors">CSS</li>
+        <li class="bg-gray-100 py-3 rounded-lg shadow-sm hover:bg-blue-100 transition-colors">JavaScript</li>
+        <li class="bg-gray-100 py-3 rounded-lg shadow-sm hover:bg-blue-100 transition-colors">Git & GitHub</li>
+        <li class="bg-gray-100 py-3 rounded-lg shadow-sm hover:bg-blue-100 transition-colors">Responsive Design</li>
+        <li class="bg-gray-100 py-3 rounded-lg shadow-sm hover:bg-blue-100 transition-colors">Bootstrap</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="project-card bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="https://via.placeholder.com/400x200" alt="Portfolio Website" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+            <p class="text-gray-600">A personal website to showcase my projects and resume, built with HTML, CSS, and JavaScript.</p>
+            <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">View Project</a>
+          </div>
+        </div>
+        <div class="project-card bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="https://via.placeholder.com/400x200" alt="To-Do List App" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">To-Do List App</h3>
+            <p class="text-gray-600">A simple task management app using HTML, CSS, and JavaScript with local storage functionality.</p>
+            <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Resume Section -->
+<section id="resume" class="bg-white py-10 px-5">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">Resume</h2>
+    <p class="text-gray-600 mb-4">Click the button below to download my resume:</p>
+    <a href="/Resume_MD_ZUNAID_AHMED_SHAH.pdf" download class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+      📄 Download Resume
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+      <p class="text-lg text-gray-600 mb-2">Email: <a href="mailto:your.email@example.com" class="text-blue-500 hover:underline">your.email@example.com</a></p>
+      <p class="text-lg text-gray-600 mb-2">Phone: <a href="tel:+91-12345-67890" class="text-blue-500 hover:underline">+91-12345-67890</a></p>
+      <div class="flex justify-center gap-4 mt-6">
+        <a href="https://linkedin.com" target="_blank" class="text-gray-600 hover:text-blue-500 transition-colors">LinkedIn</a>
+        <a href="https://github.com" target="_blank" class="text-gray-600 hover:text-blue-500 transition-colors">GitHub</a>
+        <a href="https://twitter.com" target="_blank" class="text-gray-600 hover:text-blue-500 transition-colors">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>&copy; 2025 MD ZUNAID AHMED SHAH. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
